@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Customtoolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#26C6DA</item>
+        <item name="colorPrimaryDark">#01579B</item>
+        <item name="android:navigationBarColor">#26C6DA</item>
+        <item name="android:textColorPrimary">#76FF03</item>
+
+
+    </style>
+    <style name="background_popup" parent="Customtoolbar">
+        <item name="android:background">#26C6DA</item>
+    </style>
+
+</resources>

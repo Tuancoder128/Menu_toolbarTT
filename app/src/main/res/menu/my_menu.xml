@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+   >
+    <item
+        android:showAsAction="ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:id="@+id/itsearch"
+        android:icon="@drawable/ic_search_black_24dp"
+
+        android:title="SearchView" />
+    <item
+        android:id="@+id/itThem"
+        android:title="Them" />
+    <item
+        android:id="@+id/itSua"
+        android:title="Sua" />
+    <item
+        android:id="@+id/itXoa"
+        android:title="Xoa" />
+
+
+    <item
+
+        app:showAsAction="ifRoom|collapseActionView"
+        android:id="@+id/itShare"
+        android:title="Share"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+
+        />
+
+</menu>
